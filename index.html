@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.ibb.co.com/93yMfpyV/588640164-18085862960283045-7796658050895702969-n.jpg" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>WILLINTOJASTIP - Jastip China SZ 🇨🇳</title>
+</head>
+<body>
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Menu">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">
+                <img src="https://i.ibb.co.com/93yMfpyV/588640164-18085862960283045-7796658050895702969-n.jpg" alt="WILLINTOJASTIP Logo">
+                <span>WILLINTOJASTIP</span>
+            </a>
+            <nav id="mainNav">
+                <a href="#home" class="active">Home</a>
+                <a href="#products">Products</a>
+                <a href="#how-to-order">How to Order</a>
+                <a href="#rules">Rules</a>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="batch-badge">
+                <img src="https://i.ibb.co.com/93yMfpyV/588640164-18085862960283045-7796658050895702969-n.jpg" alt="Batch 1">
+                <div class="batch-info">
+                    <h3>𝗕𝗔𝗧𝗖𝗛 𝟭</h3>
+                    <p>Close Order: 4 Jan</p>
+                    <p>ETA: 12 Jan</p>
+                </div>
+            </div>
+            <h1>JASTIP CHINA SZ 🇨🇳</h1>
+            <p class="tagline">Order Requests Are Open | 📩</p>
+            <p class="tagline">(TAOBAO, PINDUODUO, AND MORE!)</p>
+            <p class="location">📍 Jakarta Barat, Jelambar</p>
+            <div class="social-links">
+                <a href="https://instagram.com/willintojastip" target="_blank" class="social-btn">
+                    <i class="fab fa-instagram"></i> <span>@willintojastip</span>
+                </a>
+                <a href="https://wa.me/6287885154927" target="_blank" class="social-btn social-btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> <span>+62 878-8515-4927</span>
+                </a>
+                <a href="https://instagram.com/williamtantra17" target="_blank" class="social-btn">
+                    <i class="fab fa-instagram"></i> <span>@williamtantra17</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="section-header">
+            <h2>🛍️ Produk Tersedia</h2>
+            <p>Pilih produk favorit Anda dan pesan sekarang!</p>
+        </div>
+
+        <!-- Filter and Sort Controls -->
+        <div class="filter-controls">
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">Semua Produk</button>
+                <button class="filter-btn" data-category="pocky">Pocky</button>
+                <button class="filter-btn" data-category="oreo">Oreo</button>
+                <button class="filter-btn" data-category="lindt">Lindt Lindor</button>
+                <button class="filter-btn" data-category="meiji">Meiji</button>
+                <button class="filter-btn" data-category="luckin">Luckin Coffee</button>
+                <button class="filter-btn" data-category="tonys">Tonys</button>
+                <button class="filter-btn" data-category="morinaga">Morinaga</button>
+                <button class="filter-btn" data-category="accessories">Accessories</button>
+                <button class="filter-btn" data-category="teh">Teh</button>
+                <button class="filter-btn" data-category="tumbler">Tumbler</button>
+                <button class="filter-btn" data-category="liushen">六神 (Skincare)</button>
+                <button class="filter-btn" data-category="cake">Cake</button>
+                <button class="filter-btn" data-category="permen">Permen</button>
+                <button class="filter-btn" data-category="dried">Dried Fruits</button>
+                <button class="filter-btn" data-category="roti">Roti</button>
+                <button class="filter-btn" data-category="abon">Abon</button>
+                <button class="filter-btn" data-category="dendeng">Dendeng</button>
+                <button class="filter-btn" data-category="lays">Lay's</button>
+            </div>
+            <div class="sort-controls">
+                <label for="sortSelect">Urutkan:</label>
+                <select id="sortSelect">
+                    <option value="default">Default</option>
+                    <option value="price-low">Harga: Murah ke Mahal</option>
+                    <option value="price-high">Harga: Mahal ke Murah</option>
+                    <option value="name-asc">Nama: A-Z</option>
+                    <option value="name-desc">Nama: Z-A</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="products-grid" id="productsGrid">
+            <!-- Products will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <!-- Custom Order Section -->
+    <section class="custom-order">
+        <div class="custom-content">
+            <h2>🎁 Custom Request</h2>
+            <p>Cari barang di luar katalog?</p>
+            <p class="custom-desc">Kami menerima request khusus untuk barang yang tidak ada di katalog. Hubungi kami sekarang untuk diskusi lebih lanjut!</p>
+            <a href="https://wa.me/6287885154927?text=Halo%20WILLINTOJASTIP,%20saya%20ingin%20request%20barang%20custom" target="_blank" class="btn-custom">
+                <i class="fab fa-whatsapp"></i> Request Custom Order
+            </a>
+        </div>
+    </section>
+
+    <!-- How to Order Section -->
+    <section class="how-to-order" id="how-to-order">
+        <div class="section-content">
+            <h2>📱 Cara Order</h2>
+            <p class="section-subtitle">Ikuti langkah mudah untuk memesan produk favorit Anda!</p>
+            
+            <div class="video-container">
+                <video controls playsinline>
+                    <source src="HOW.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung video HTML5.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rules Section -->
+    <section class="rules-section" id="rules">
+        <div class="section-content">
+            <h2>📋 Syarat & Ketentuan</h2>
+            <p class="section-subtitle">Harap dibaca dengan teliti sebelum melakukan pemesanan</p>
+            
+            <div class="rules-container">
+                <div class="rule-card">
+                    <div class="rule-icon">💰</div>
+                    <h3>Harga & Biaya</h3>
+                    <p>Harga yang tertera sudah include barang + jasa titip + ongkir China ke Indo, dan <strong>belum termasuk biaya kirim & packing</strong> ke rumah customer (akan ditanggung oleh pembeli).</p>
+                </div>
+
+                <div class="rule-card">
+                    <div class="rule-icon">📝</div>
+                    <h3>Cara Pemesanan</h3>
+                    <p>Reply katalog / screenshot (accepting requests).</p>
+                </div>
+
+                <div class="rule-card">
+                    <div class="rule-icon">💳</div>
+                    <h3>Down Payment</h3>
+                    <p>DP 50% untuk barang yang mau dititip.</p>
+                </div>
+
+                <div class="rule-card">
+                    <div class="rule-icon">🎁</div>
+                    <h3>Custom Request</h3>
+                    <p>Open request untuk barang diluar katalog!</p>
+                </div>
+
+                <div class="rule-card">
+                    <div class="rule-icon">✅</div>
+                    <h3>Sistem Pembayaran</h3>
+                    <p>Sistem <strong>FULL PAYMENT</strong>. Jika barang kosong dan tidak ORI → refund 100%.</p>
+                </div>
+
+                <div class="rule-card">
+                    <div class="rule-icon">📄</div>
+                    <h3>Bukti Transfer</h3>
+                    <p>Wajib kirim bukti transfer dan nama pemesan saat order.</p>
+                </div>
+            </div>
+
+            <div class="notes-section">
+                <h3>⚠️ Catatan Penting:</h3>
+                <ul>
+                    <li>Pengiriman via Shopee kena tambahan admin <strong>6%</strong> dari harga jual.</li>
+                    <li>Jika ada kerusakan dari ekspedisi (Lalamove/Gosend/JNE), hal itu diluar tanggung jawab kita.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>WILLINTOJASTIP</h3>
+                <p>Jastip China SZ 🇨🇳</p>
+                <p>📍 Jakarta Barat, Jelambar</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fab fa-whatsapp"></i> +62 878-8515-4927</p>
+                <p><i class="fab fa-instagram"></i> @willintojastip</p>
+                <p><i class="fab fa-instagram"></i> @williamtantra17</p>
+            </div>
+            <div class="footer-section">
+                <h3>Batch Info</h3>
+                <p>BATCH 1</p>
+                <p>Close Order: 4 Jan</p>
+                <p>ETA: 12 Jan</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 WILLINTOJASTIP. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
