@@ -439,7 +439,39 @@ const products = [
             price: 100000,
             image: "laysor.jpg",
             category: "lays"
-        }
+        },
+        {
+            id: 56,
+            name: "Angpao Dompet Kain Pita Embos Motif Sangjit",
+            description: "Angpao Dompet Kain Pita Embos Motif Sangjit – Souvenir Imlek CNY, Dompet Angpau Tradisional untuk Sangjit & Wedding",
+            price: 40000,
+            image: "willintojastip.png",
+            category: "accessories"
+        },
+        {
+            id: 57,
+            name: "VRT3 High-Pressure Plunger Pump",
+            description: "VRT3 High-Pressure Plunger Pump Pressure Unloader Regulator Valve, Large Flow, 3/8” Brass Quick Connect",
+            price: 750000,
+            image: "omhaf.png",
+            category: "mesin"
+        },
+        {
+            id: 58,
+            name: "Jepit Rambut Anak Miffy Cute",
+            description: "Jepit Rambut Anak Miffy Cute – Hair Clip Set Lucu & Gemes",
+            price: 29000,
+            image: "miffy.png",
+            category: "accessories"
+        },
+        {
+            id: 59,
+            name: "Jepit Rambut Anak Miffy Cute",
+            description: "Jepit Rambut Anak Miffy Cute – Hair Clip Set Lucu & Gemes",
+            price: 35000,
+            image: "miffy 2.png",
+            category: "accessories"
+        },
 
 ];
 
